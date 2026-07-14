@@ -1,0 +1,50 @@
+{
+  "name": "webapptry1",
+  "version": "0.0.0",
+  "private": true,
+  "description": "WebAppForPurchase",
+  "homepage": "https://github.com/kulbhaskar/WebShopApp#readme",
+  "bugs": {
+    "url": "https://github.com/kulbhaskar/WebShopApp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kulbhaskar/WebShopApp.git"
+  },
+  "license": "ISC",
+  "author": "Kulbhaskar",
+  "type": "module",
+  "main": "api-server.js",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"node api-server.js\"",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.14.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "autoprefixer": "^10.5.0",
+    "concurrently": "^8.2.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "postcss": "^8.5.10",
+    "tailwindcss": "^4.2.2",
+    "vite": "^8.0.4"
+  }
+}

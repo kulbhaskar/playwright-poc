@@ -1,0 +1,7 @@
+{
+  "user@example.com": {
+    "name": "John Doe",
+    "email": "user@example.com",
+    "cart": []
+  }
+}
